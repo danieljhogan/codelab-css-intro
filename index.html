@@ -3,7 +3,11 @@
 <head>
   <title>Rags T. Cat's Resume</title>
   <style>
-  p, ul, ol {
+  p {
+    background-color: lightgreen;
+    color: black;
+  }
+  ul, ol {
     background-color: lightgreen;
     color: orange;
     font-size: 20px;
@@ -11,23 +15,41 @@
     body {
       background-color: lightblue;
     }
+    p.warning {
+      /*warning text is a different color than normal text. */
+      color: lightcoral;
+      font-size: 30px;
+      background-color: white;
+    }
+    h1.hey-look {
+      /*draw attention to the first headline*/
+      color: lightcoral;
+      background-color: white;
+    }
+    ul.job-list {
+      background-color: white;
+    }
+    ul.hobbies {
+      background-color: yellow;
+    }
     </style>
 </head>
 <body>
+  <p class="warning">Danger! This resume is too cute! Consult a cutetrition before viewing!</p>
 <h1>Rags T. Cat</h1>
   <p>1313 Crazycat Lane, Meowllerville, MI.</p>
-<h1>Objective</h1>
+<h1 class="hey-look">Objective</h1>
 <p>To be <strong>Head Tuna Taster</strong> for Ain't No Dolphins Tuna</p>
 <p><strong>Job History</strong></p>
-<ul>
+<ul class="job-list">
   <li>Rat Catcher</li>
   <li>Bat Scratcher</li>
-  <li>Speech Writer (Theordore Meowsovelt)</li>
+  <li>Speech Writer (Theodore Meowsovelt)</li>
   <li>Chipmunk Chaser</li>
   <li>Fish Grabber</li>
 </ul>
 <p><strong>Hobbies</strong></p>
-    <ul>
+    <ul class="hobbies">
       <li>Fish stories</li>
       <li>Fishing</li>
       <li>Go Fish</li>
