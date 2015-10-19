@@ -5,52 +5,66 @@
   <style>
   p {
     background-color: #f17f51;
-    color: black;
+    color: #edebe8;
     margin-top: 20px;
     margin-bottom: 10px;
   }
   ul, ol {
-    border: 6px solid black;
-    color: white;
+    border: 6px solid #73777a;
+    color:  	#73777a;
     font-size: 25px;
     line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 60px;
-    margin-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 70px;
+    margin: 10px 250px 10px 250px;
+    padding: 10px 10px 10px 70px;
   }
     body {
       background-color: #edebe8;
     }
-    p.warning {
+    .job-title {
+      /*changing background and color.*/
+      background-color: #edebe8;
+      color: black;
+    }
+    .warning {
       /*warning text is a different color than normal text. */
       color: lightcoral;
       font-size: 30px;
-      background-color: white;
+      background-color: #edebe8;
     }
-    h1.hey-look {
-      /*draw attention to the first headline*/
-      color: lightcoral;
-      background-color: white;
+    .address {
+      /*change address font colors*/
+      color: black;
+      background-color: #edebe8;
     }
-    ul.job-list {
+    .rags-photo {
+      margin: 10px 450px 10px 450px;
+      background-color: transparent;
+    }
+    .hey-look {
+      /*draw attention to the objective*/
+      color: #73777a;
+      background-color: #b5c9d4;
+      border: 6px solid #73777a;
+      padding: 10px 10px 10px 10px;
+    }
+    .name {
+      background-color: #f17f51;
+      color: #edebe8;
+    }
+    .job-list {
       background-color: #b5c9d4;
     }
-    ul.hobbies {
+    .hobbies {
       background-color: #b5c9d4;
     }
     </style>
 </head>
 <body>
-  <p class="warning">Danger! This resume is too cute! Consult a cutetrition before viewing!</p>
-<h1>Rags T. Cat</h1>
-  <p>1313 Crazycat Lane, Meowllerville, MI.</p>
+<p class="warning">Danger! This resume is too cute! Consult a doctor before viewing!</p>
+<h1 class="name">Rags T. Cat</h1>
+  <p class="address">1313 Crazycat Lane, Meowllerville, MI.</p>
 <h1 class="hey-look">Objective</h1>
-<p>To be <strong>Head Tuna Taster</strong> for Ain't No Dolphins Tuna</p>
+<p class="job-title">To be <strong>Head Tuna Taster</strong> for Ain't No Dolphins Tuna</p>
 <p><strong>Job History</strong></p>
 <ul class="job-list">
   <li>Rat Catcher</li>
@@ -66,7 +80,7 @@
       <li>Go Fish</li>
       <li><a href="http://clattertron.com/2014/04/01/cat-play-scrabble-humor-photos/">Scrabble!</a></li>
     </ul>
-  <p><a href="http://clattertron.com/tag/rags/"><img src="http://clattertron.com/wp-content/uploads/2014/03/scrabble2b.jpg" alt="cat"/></a></p>
+  <p class="rags-photo"><a href="http://clattertron.com/2014/04/01/cat-play-scrabble-humor-photos/"><img src="http://clattertron.com/wp-content/uploads/2014/03/scrabble2b.jpg" alt="cat"/></a></p>
   <p>Learn more about me <a href="http://clattertron.com/tag/rags/">here!</a></p>
 </body>
 </html>
